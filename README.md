@@ -27,7 +27,7 @@ Test the C Program for the desired output.
 #include <stdio.h> #include <stdlib.h> #include <unistd.h> #include <sys/wait.h>
 
 int main(void) { pid_t pid = fork();
-
+```
 if (pid < 0) {
     perror("fork failed");
     return 1;
@@ -44,7 +44,7 @@ if (pid == 0) {
 
 return 0;
 }
-
+```
 ##OUTPUT
 <img width="535" height="720" alt="image" src="https://github.com/user-attachments/assets/d131b78b-3d86-4df2-b58e-49d991f2d10f" />
 
@@ -57,7 +57,7 @@ printf("Running ps with execl\n");
 fflush(stdout);
 
 pid = fork();
-
+```
 if (pid < 0) {
     perror("fork failed");
     return 1;
@@ -102,7 +102,7 @@ if (WIFEXITED(status)) {
 printf("Done.\n");
 return 0;
 }
-
+```
 ##OUTPUT
 
 <img width="618" height="583" alt="image" src="https://github.com/user-attachments/assets/519b72b4-28f7-41e2-ae15-1f417432b20e" />
