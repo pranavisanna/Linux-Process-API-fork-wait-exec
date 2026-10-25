@@ -46,6 +46,7 @@ return 0;
 }
 ```
 ##OUTPUT
+
 <img width="535" height="720" alt="image" src="https://github.com/user-attachments/assets/d131b78b-3d86-4df2-b58e-49d991f2d10f" />
 
 
